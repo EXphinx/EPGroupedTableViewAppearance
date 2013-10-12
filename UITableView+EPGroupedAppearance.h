@@ -22,7 +22,7 @@ typedef void(^EPGroupedTableViewCellStylingBlock)(UITableViewCell *cell, EPGroup
 
 + (instancetype)appearanceProxy;
 
-@property (nonatomic, copy) EPGroupedTableViewCellStylingBlock stylingBlock UI_APPEARANCE_SELECTOR;
+@property (nonatomic, copy) EPGroupedTableViewCellStylingBlock stylingBlock;
 
 @end
 
