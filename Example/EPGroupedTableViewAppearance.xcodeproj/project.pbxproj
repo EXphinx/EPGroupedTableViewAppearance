@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0699FA3B180954C000210281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0699FA3A180954C000210281 /* Foundation.framework */; };
+		0699FA3D180954C000210281 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0699FA3C180954C000210281 /* CoreGraphics.framework */; };
+		0699FA3F180954C000210281 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0699FA3E180954C000210281 /* UIKit.framework */; };
+		0699FA45180954C000210281 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0699FA43180954C000210281 /* InfoPlist.strings */; };
+		0699FA47180954C000210281 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0699FA46180954C000210281 /* main.m */; };
+		0699FA4B180954C000210281 /* EPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0699FA4A180954C000210281 /* EPAppDelegate.m */; };
+		0699FA4D180954C000210281 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0699FA4C180954C000210281 /* Images.xcassets */; };
+		0699FA54180954C000210281 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0699FA53180954C000210281 /* XCTest.framework */; };
+		0699FA55180954C000210281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0699FA3A180954C000210281 /* Foundation.framework */; };
+		0699FA56180954C000210281 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0699FA3E180954C000210281 /* UIKit.framework */; };
+		0699FA5E180954C000210281 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0699FA5C180954C000210281 /* InfoPlist.strings */; };
+		0699FA60180954C000210281 /* EPGroupedTableViewAppearanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0699FA5F180954C000210281 /* EPGroupedTableViewAppearanceTests.m */; };
+		0699FA6B1809556500210281 /* UITableView+EPGroupedAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0699FA6A1809556500210281 /* UITableView+EPGroupedAppearance.m */; };
+		0699FA6E1809557F00210281 /* EPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0699FA6D1809557F00210281 /* EPTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0699FA57180954C000210281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0699FA2F180954C000210281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0699FA36180954C000210281;
+			remoteInfo = EPGroupedTableViewAppearance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0699FA37180954C000210281 /* EPGroupedTableViewAppearance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPGroupedTableViewAppearance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0699FA3A180954C000210281 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0699FA3C180954C000210281 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0699FA3E180954C000210281 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0699FA42180954C000210281 /* EPGroupedTableViewAppearance-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPGroupedTableViewAppearance-Info.plist"; sourceTree = "<group>"; };
+		0699FA44180954C000210281 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0699FA46180954C000210281 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0699FA48180954C000210281 /* EPGroupedTableViewAppearance-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EPGroupedTableViewAppearance-Prefix.pch"; sourceTree = "<group>"; };
+		0699FA49180954C000210281 /* EPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPAppDelegate.h; sourceTree = "<group>"; };
+		0699FA4A180954C000210281 /* EPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPAppDelegate.m; sourceTree = "<group>"; };
+		0699FA4C180954C000210281 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0699FA52180954C000210281 /* EPGroupedTableViewAppearanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPGroupedTableViewAppearanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0699FA53180954C000210281 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0699FA5B180954C000210281 /* EPGroupedTableViewAppearanceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPGroupedTableViewAppearanceTests-Info.plist"; sourceTree = "<group>"; };
+		0699FA5D180954C000210281 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0699FA5F180954C000210281 /* EPGroupedTableViewAppearanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPGroupedTableViewAppearanceTests.m; sourceTree = "<group>"; };
+		0699FA691809556500210281 /* UITableView+EPGroupedAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView+EPGroupedAppearance.h"; path = "../UITableView+EPGroupedAppearance.h"; sourceTree = "<group>"; };
+		0699FA6A1809556500210281 /* UITableView+EPGroupedAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableView+EPGroupedAppearance.m"; path = "../UITableView+EPGroupedAppearance.m"; sourceTree = "<group>"; };
+		0699FA6C1809557F00210281 /* EPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPTableViewController.h; sourceTree = "<group>"; };
+		0699FA6D1809557F00210281 /* EPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0699FA34180954C000210281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0699FA3D180954C000210281 /* CoreGraphics.framework in Frameworks */,
+				0699FA3F180954C000210281 /* UIKit.framework in Frameworks */,
+				0699FA3B180954C000210281 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0699FA4F180954C000210281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0699FA54180954C000210281 /* XCTest.framework in Frameworks */,
+				0699FA56180954C000210281 /* UIKit.framework in Frameworks */,
+				0699FA55180954C000210281 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0699FA2E180954C000210281 = {
+			isa = PBXGroup;
+			children = (
+				0699FA691809556500210281 /* UITableView+EPGroupedAppearance.h */,
+				0699FA6A1809556500210281 /* UITableView+EPGroupedAppearance.m */,
+				0699FA40180954C000210281 /* EPGroupedTableViewAppearance */,
+				0699FA59180954C000210281 /* EPGroupedTableViewAppearanceTests */,
+				0699FA39180954C000210281 /* Frameworks */,
+				0699FA38180954C000210281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0699FA38180954C000210281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0699FA37180954C000210281 /* EPGroupedTableViewAppearance.app */,
+				0699FA52180954C000210281 /* EPGroupedTableViewAppearanceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0699FA39180954C000210281 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0699FA3A180954C000210281 /* Foundation.framework */,
+				0699FA3C180954C000210281 /* CoreGraphics.framework */,
+				0699FA3E180954C000210281 /* UIKit.framework */,
+				0699FA53180954C000210281 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0699FA40180954C000210281 /* EPGroupedTableViewAppearance */ = {
+			isa = PBXGroup;
+			children = (
+				0699FA6C1809557F00210281 /* EPTableViewController.h */,
+				0699FA6D1809557F00210281 /* EPTableViewController.m */,
+				0699FA49180954C000210281 /* EPAppDelegate.h */,
+				0699FA4A180954C000210281 /* EPAppDelegate.m */,
+				0699FA4C180954C000210281 /* Images.xcassets */,
+				0699FA41180954C000210281 /* Supporting Files */,
+			);
+			path = EPGroupedTableViewAppearance;
+			sourceTree = "<group>";
+		};
+		0699FA41180954C000210281 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0699FA42180954C000210281 /* EPGroupedTableViewAppearance-Info.plist */,
+				0699FA43180954C000210281 /* InfoPlist.strings */,
+				0699FA46180954C000210281 /* main.m */,
+				0699FA48180954C000210281 /* EPGroupedTableViewAppearance-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0699FA59180954C000210281 /* EPGroupedTableViewAppearanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				0699FA5F180954C000210281 /* EPGroupedTableViewAppearanceTests.m */,
+				0699FA5A180954C000210281 /* Supporting Files */,
+			);
+			path = EPGroupedTableViewAppearanceTests;
+			sourceTree = "<group>";
+		};
+		0699FA5A180954C000210281 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0699FA5B180954C000210281 /* EPGroupedTableViewAppearanceTests-Info.plist */,
+				0699FA5C180954C000210281 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0699FA36180954C000210281 /* EPGroupedTableViewAppearance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0699FA63180954C000210281 /* Build configuration list for PBXNativeTarget "EPGroupedTableViewAppearance" */;
+			buildPhases = (
+				0699FA33180954C000210281 /* Sources */,
+				0699FA34180954C000210281 /* Frameworks */,
+				0699FA35180954C000210281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EPGroupedTableViewAppearance;
+			productName = EPGroupedTableViewAppearance;
+			productReference = 0699FA37180954C000210281 /* EPGroupedTableViewAppearance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0699FA51180954C000210281 /* EPGroupedTableViewAppearanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0699FA66180954C000210281 /* Build configuration list for PBXNativeTarget "EPGroupedTableViewAppearanceTests" */;
+			buildPhases = (
+				0699FA4E180954C000210281 /* Sources */,
+				0699FA4F180954C000210281 /* Frameworks */,
+				0699FA50180954C000210281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0699FA58180954C000210281 /* PBXTargetDependency */,
+			);
+			name = EPGroupedTableViewAppearanceTests;
+			productName = EPGroupedTableViewAppearanceTests;
+			productReference = 0699FA52180954C000210281 /* EPGroupedTableViewAppearanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0699FA2F180954C000210281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = EXphinx;
+				TargetAttributes = {
+					0699FA51180954C000210281 = {
+						TestTargetID = 0699FA36180954C000210281;
+					};
+				};
+			};
+			buildConfigurationList = 0699FA32180954C000210281 /* Build configuration list for PBXProject "EPGroupedTableViewAppearance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0699FA2E180954C000210281;
+			productRefGroup = 0699FA38180954C000210281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0699FA36180954C000210281 /* EPGroupedTableViewAppearance */,
+				0699FA51180954C000210281 /* EPGroupedTableViewAppearanceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0699FA35180954C000210281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0699FA45180954C000210281 /* InfoPlist.strings in Resources */,
+				0699FA4D180954C000210281 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0699FA50180954C000210281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0699FA5E180954C000210281 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0699FA33180954C000210281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0699FA6B1809556500210281 /* UITableView+EPGroupedAppearance.m in Sources */,
+				0699FA47180954C000210281 /* main.m in Sources */,
+				0699FA6E1809557F00210281 /* EPTableViewController.m in Sources */,
+				0699FA4B180954C000210281 /* EPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0699FA4E180954C000210281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0699FA60180954C000210281 /* EPGroupedTableViewAppearanceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0699FA58180954C000210281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0699FA36180954C000210281 /* EPGroupedTableViewAppearance */;
+			targetProxy = 0699FA57180954C000210281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0699FA43180954C000210281 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0699FA44180954C000210281 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0699FA5C180954C000210281 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0699FA5D180954C000210281 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0699FA61180954C000210281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0699FA62180954C000210281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0699FA64180954C000210281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPGroupedTableViewAppearance/EPGroupedTableViewAppearance-Prefix.pch";
+				INFOPLIST_FILE = "EPGroupedTableViewAppearance/EPGroupedTableViewAppearance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0699FA65180954C000210281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPGroupedTableViewAppearance/EPGroupedTableViewAppearance-Prefix.pch";
+				INFOPLIST_FILE = "EPGroupedTableViewAppearance/EPGroupedTableViewAppearance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0699FA67180954C000210281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EPGroupedTableViewAppearance.app/EPGroupedTableViewAppearance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPGroupedTableViewAppearance/EPGroupedTableViewAppearance-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EPGroupedTableViewAppearanceTests/EPGroupedTableViewAppearanceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0699FA68180954C000210281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EPGroupedTableViewAppearance.app/EPGroupedTableViewAppearance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EPGroupedTableViewAppearance/EPGroupedTableViewAppearance-Prefix.pch";
+				INFOPLIST_FILE = "EPGroupedTableViewAppearanceTests/EPGroupedTableViewAppearanceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0699FA32180954C000210281 /* Build configuration list for PBXProject "EPGroupedTableViewAppearance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0699FA61180954C000210281 /* Debug */,
+				0699FA62180954C000210281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0699FA63180954C000210281 /* Build configuration list for PBXNativeTarget "EPGroupedTableViewAppearance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0699FA64180954C000210281 /* Debug */,
+				0699FA65180954C000210281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0699FA66180954C000210281 /* Build configuration list for PBXNativeTarget "EPGroupedTableViewAppearanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0699FA67180954C000210281 /* Debug */,
+				0699FA68180954C000210281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0699FA2F180954C000210281 /* Project object */;
+}
